@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct AppEnvironmentDependencyInjectionApp: App {
+    @StateObject var appEnvironment = AppEnvironment(fileClient: .live)
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

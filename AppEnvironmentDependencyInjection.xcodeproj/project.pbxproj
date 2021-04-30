@@ -11,6 +11,9 @@
 		953A9A26263BFA9E009F2601 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A9A25263BFA9E009F2601 /* ContentView.swift */; };
 		953A9A28263BFAA0009F2601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953A9A27263BFAA0009F2601 /* Assets.xcassets */; };
 		953A9A2B263BFAA0009F2601 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953A9A2A263BFAA0009F2601 /* Preview Assets.xcassets */; };
+		953A9A33263BFABB009F2601 /* FileClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A9A32263BFABB009F2601 /* FileClient.swift */; };
+		953A9A35263BFB39009F2601 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953A9A34263BFB39009F2601 /* AppEnvironment.swift */; };
+		953A9A37263C0865009F2601 /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 953A9A36263C0865009F2601 /* text.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		953A9A27263BFAA0009F2601 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		953A9A2A263BFAA0009F2601 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		953A9A2C263BFAA0009F2601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953A9A32263BFABB009F2601 /* FileClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileClient.swift; sourceTree = "<group>"; };
+		953A9A34263BFB39009F2601 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		953A9A36263C0865009F2601 /* text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 				953A9A27263BFAA0009F2601 /* Assets.xcassets */,
 				953A9A2C263BFAA0009F2601 /* Info.plist */,
 				953A9A29263BFAA0009F2601 /* Preview Content */,
+				953A9A32263BFABB009F2601 /* FileClient.swift */,
+				953A9A34263BFB39009F2601 /* AppEnvironment.swift */,
 			);
 			path = AppEnvironmentDependencyInjection;
 			sourceTree = "<group>";
@@ -65,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				953A9A2A263BFAA0009F2601 /* Preview Assets.xcassets */,
+				953A9A36263C0865009F2601 /* text.txt */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -127,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				953A9A2B263BFAA0009F2601 /* Preview Assets.xcassets in Resources */,
+				953A9A37263C0865009F2601 /* text.txt in Resources */,
 				953A9A28263BFAA0009F2601 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				953A9A26263BFA9E009F2601 /* ContentView.swift in Sources */,
+				953A9A35263BFB39009F2601 /* AppEnvironment.swift in Sources */,
+				953A9A33263BFABB009F2601 /* FileClient.swift in Sources */,
 				953A9A24263BFA9E009F2601 /* AppEnvironmentDependencyInjectionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
